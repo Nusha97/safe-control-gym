@@ -58,3 +58,7 @@ register(id="rarl",
 register(id="rap",
          entry_point="safe_control_gym.controllers.rarl.rap:RAP",
          config_entry_point="safe_control_gym.controllers.rarl:rap.yaml")
+
+register(id="tdc",
+        entry_point="safe_control_gym.controllers.tdc.tdc:TDC",
+        config_entry_point="safe_control_gym.controllers.tdc:tdc.yaml")
